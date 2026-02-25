@@ -1,0 +1,34 @@
+{
+  "name": "auth_graphql",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "Mikael Aurio Martins",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^5.4.0",
+    "argon2": "^0.44.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "graphql": "^16.12.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.18.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
